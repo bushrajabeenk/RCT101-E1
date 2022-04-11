@@ -7,6 +7,10 @@
     margin-bottom: 20px;
 }
 
+.item > div {
+    border-radius: 10px;
+}
+
 .disimg{
     padding: 10px;
     display: flex;
