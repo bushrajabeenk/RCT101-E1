@@ -6,6 +6,7 @@ import './CartButton.css';
 const CartButton = () => {
 
     //manage state of the count 
+<<<<<<< HEAD
   const [count, setCount] = useState(0);
   const [status, setStatus] = useState(false);
 
@@ -46,5 +47,16 @@ const CartButton = () => {
       </div>
     </>
   );
+=======
+  return <>
+  {/* add to cart button */}
+  {/* count with - and  + button */}
+  <div>
+      <button>-</button>
+      {/* <p className="count-item">{count}</p> */}
+      <button>+</button>
+  </div>
+  </>;
+>>>>>>> fb1183de3dbf16e6bb11ba138f244c2e736a7ce7
 };
 export default CartButton
