@@ -1,0 +1,25 @@
+
+.item{
+    width: 90%;
+    height: 310px;
+    border: 1px solid black;
+    justify-content: space-evenly;
+    margin-bottom: 20px;
+}
+
+.disimg{
+    padding: 10px;
+    display: flex;
+    justify-content: left;
+}
+
+.heading {
+    overflow: hidden;
+    padding: 10px;
+}
+
+.sellmrp{
+    display: flex;
+    justify-content:space-between;
+    padding: 10px;
+}
